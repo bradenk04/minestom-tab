@@ -8,8 +8,7 @@ repositories {
 }
 
 group = "com.bradenkennedy"
-version = "1.0.0"
-
+version = "1.0.1"
 
 dependencies {
     compileOnly(libs.minestom)
@@ -27,9 +26,7 @@ java {
 
 mavenPublishing {
     publishToMavenCentral()
-    if (project.hasProperty("signing.keyId")) {
-        signAllPublications()
-    }
+    signAllPublications()
 }
 
 mavenPublishing {
