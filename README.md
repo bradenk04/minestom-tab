@@ -3,7 +3,7 @@
 A simple library for managing per-instance tablists and player visibility groups in Minestom.
 
 [![Maven Central](https://img.shields.io/maven-central/v/com.bradenkennedy/minestom-tab)](https://central.sonatype.com/artifact/com.bradenkennedy/minestom-tab)
-[![License](https://img.shields.io/github/license/bradenkennedy/minestom-tab)](LICENSE)
+[![License](https://img.shields.io/github/license/bradenk04/minestom-tab)](LICENSE)
 
 ## Features
 
