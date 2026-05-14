@@ -25,14 +25,14 @@ java {
 }
 
 mavenPublishing {
-    publishToMavenCentral()
+    publishToMavenCentral(automaticRelease = true)
     signAllPublications()
-}
 
-mavenPublishing {
     coordinates(
         "com.bradenkennedy",
-        "minestom-tab", project.version.toString(),)
+        "minestom-tab",
+        project.version.toString()
+    )
 
     pom {
         name.set("Minestom Tab")

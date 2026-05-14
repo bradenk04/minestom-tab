@@ -27,7 +27,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.bradenkennedy:minestom-tab:1.0.0")
+    implementation("com.bradenkennedy:minestom-tab:1.0.1")
 }
 ```
 
@@ -36,7 +36,7 @@ dependencies {
 <dependency>
     <groupId>com.bradenkennedy</groupId>
     <artifactId>minestom-tab</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
