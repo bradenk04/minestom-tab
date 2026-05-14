@@ -10,6 +10,7 @@ repositories {
 group = "com.bradenkennedy"
 version = "1.0.0"
 
+
 dependencies {
     compileOnly(libs.minestom)
     testImplementation(libs.minestom.testing)
